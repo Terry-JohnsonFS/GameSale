@@ -4,6 +4,171 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#2196F3"
     tools:context=".SteamSalesTimes">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/white"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="209dp"
+            android:layout_height="162dp"
+            android:layout_marginStart="101dp"
+            android:layout_marginEnd="101dp"
+            android:layout_gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/screenshot_2023_06_04_144013" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="1dp"
+            android:layout_marginEnd="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:cardBackgroundColor="@color/black"
+            tools:layout_editor_absoluteY="162dp" >
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="196dp"
+                android:layout_height="29dp"
+                android:layout_marginStart="107dp"
+                android:layout_marginEnd="108dp"
+                android:text="Big Sales"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textColor="#4CAF50"
+                android:textStyle="bold" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Jun 29 - Jul 13, 2023: Steam Summer Sale"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="232dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Nov 21 - Nov 28, 2023: Steam Autumn Sale"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="271dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Dec 21, 2023 - Jan 4, 2024: Steam Winter Sale"
+            android:textSize="20dp"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="306dp" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:cardBackgroundColor="@color/black"
+            tools:layout_editor_absoluteY="383dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="144dp"
+                android:layout_marginEnd="145dp"
+                android:text="Smaller sales"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#4CAF50"
+                android:layout_gravity="center"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="397dp" />
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jul 24 - Jul 31, 2023: Stealth Fest"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="45dp"
+            tools:layout_editor_absoluteY="450dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aug 7 - Aug 14, 2023: Visual Novel Fest"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="59dp"
+            tools:layout_editor_absoluteY="566dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aug 28 - Sep 4, 2023: Strategy Fest"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="479dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sep 25 - Oct 2, 2023: SHMUP Fes"
+            android:textSize="18dp"
+            android:layout_gravity="center"
+            tools:layout_editor_absoluteX="94dp"
+            tools:layout_editor_absoluteY="532dp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Oct 26 - Nov 2, 2023: Scream Fest "
+            android:textSize="18dp"
+            tools:layout_editor_absoluteX="81dp"
+            tools:layout_editor_absoluteY="615dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:backgroundTint="@color/black"
+            android:backgroundTintMode="add"
+            android:textColor="#2196F3" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

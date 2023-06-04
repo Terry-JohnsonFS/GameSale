@@ -13,6 +13,29 @@
         android:theme="@style/Theme.GameSale"
         tools:targetApi="31">
         <activity
+            android:name=".SteamSalesTimes"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SteamLookUp"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SteamLookup"
+            android:exported="false"
+            android:label="@string/title_activity_steam_lookup"
+            android:theme="@style/Theme.GameSale.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

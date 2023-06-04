@@ -12,8 +12,11 @@ class SteamLookUp : AppCompatActivity() {
         setContentView(R.layout.activity_steam_look_up)
 
         val SalesButton = findViewById<Button>(R.id.button2)
-        val intent = Intent(this, SteamSalesTimes::class.java)
-        startActivity(intent)
+        SalesButton.setOnClickListener {
+            val intent = Intent(this, SteamSalesTimes::class.java)
+            startActivity(intent)
+        }
+
     }
 
     private fun userinput(): String {

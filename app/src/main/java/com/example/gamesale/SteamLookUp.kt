@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
+import android.widget.TextView
 
 class SteamLookUp : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -15,6 +16,14 @@ class SteamLookUp : AppCompatActivity() {
         SalesButton.setOnClickListener {
             val intent = Intent(this, SteamSalesTimes::class.java)
             startActivity(intent)
+        }
+        val DisplayPrice = findViewById<TextView>(R.id.textView1)
+        val SearchPrice = findViewById<Button>(R.id.button5)
+        SearchPrice.setOnClickListener {
+            when (userinput()) {
+                "fallout4" -> DisplayPrice.setText("19.99")
+                "skyrim" -> DisplayPrice.setText("39.99")
+            }
         }
 
     }

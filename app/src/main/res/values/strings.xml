@@ -12,4 +12,9 @@
     <string name="welcome_to_the_steam_game_sale_tracker">Welcome to the Steam Game Sale tracker</string>
     <string name="click_to_start">Click To Start</string>
     <string name="todo">TODO</string>
+    <string name="price_results">Price results</string>
+    <string name="when_are_the_sales">When are the sales?</string>
+    <string name="click_to_search_above_game">Click To Search Above Game</string>
+    <string name="steam_look_up_page">Steam Look Up Page</string>
+    <string name="average_acheivements_completed_in_game_show_here">Average Acheivements Completed in Game show here</string>
 </resources>

@@ -48,7 +48,7 @@
                 android:layout_marginEnd="108dp"
                 android:text="@string/big_sales"
                 android:textAlignment="center"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textColor="#4CAF50"
                 android:textStyle="bold" />
         </androidx.cardview.widget.CardView>
@@ -59,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/jun_29_jul_13_2023_steam_summer_sale"
-            android:textSize="20dp"
+            android:textSize="20sp"
             tools:layout_editor_absoluteX="59dp"
             tools:layout_editor_absoluteY="232dp" />
 
@@ -69,7 +69,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/nov_21_nov_28_2023_steam_autumn_sale"
-            android:textSize="20dp"
+            android:textSize="20sp"
             tools:layout_editor_absoluteX="55dp"
             tools:layout_editor_absoluteY="271dp" />
 
@@ -79,7 +79,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/dec_21_2023_jan_4_2024_steam_winter_sale"
-            android:textSize="20dp"
+            android:textSize="20sp"
             tools:layout_editor_absoluteX="45dp"
             tools:layout_editor_absoluteY="306dp" />
 
@@ -101,7 +101,7 @@
                 android:layout_marginEnd="145dp"
                 android:text="@string/smaller_sales"
                 android:textAlignment="center"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#4CAF50"
                 android:layout_gravity="center"
@@ -115,7 +115,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/jul_24_jul_31_2023_stealth_fest"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:layout_gravity="center"
             tools:layout_editor_absoluteX="45dp"
             tools:layout_editor_absoluteY="450dp" />
@@ -125,7 +125,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/aug_7_aug_14_2023_visual_novel_fest"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:layout_gravity="center"
             tools:layout_editor_absoluteX="59dp"
             tools:layout_editor_absoluteY="566dp" />
@@ -135,7 +135,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/aug_28_sep_4_2023_strategy_fest"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:layout_gravity="center"
             tools:layout_editor_absoluteX="81dp"
             tools:layout_editor_absoluteY="479dp" />
@@ -145,7 +145,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/sep_25_oct_2_2023_shmup_fes"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:layout_gravity="center"
             tools:layout_editor_absoluteX="94dp"
             tools:layout_editor_absoluteY="532dp" />
@@ -156,7 +156,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="@string/oct_26_nov_2_2023_scream_fest"
-            android:textSize="18dp"
+            android:textSize="18sp"
             tools:layout_editor_absoluteX="81dp"
             tools:layout_editor_absoluteY="615dp" />
 

@@ -18,4 +18,15 @@
     <string name="steam_look_up_page">Steam Look Up Page</string>
     <string name="average_acheivements_completed_in_game_show_here">Average Acheivements Completed in Game show here</string>
     <string name="game_to_search">game to search</string>
+    <string name="big_sales">Big Sales</string>
+    <string name="aug_28_sep_4_2023_strategy_fest">Aug 28 - Sep 4, 2023: Strategy Fest</string>
+    <string name="aug_7_aug_14_2023_visual_novel_fest">Aug 7 - Aug 14, 2023: Visual Novel Fest</string>
+    <string name="sep_25_oct_2_2023_shmup_fes">Sep 25 - Oct 2, 2023: SHMUP Fes</string>
+    <string name="oct_26_nov_2_2023_scream_fest">Oct 26 - Nov 2, 2023: Scream Fest</string>
+    <string name="jul_24_jul_31_2023_stealth_fest">Jul 24 - Jul 31, 2023: Stealth Fest</string>
+    <string name="smaller_sales">Smaller sales</string>
+    <string name="dec_21_2023_jan_4_2024_steam_winter_sale">Dec 21, 2023 - Jan 4, 2024: Steam Winter Sale</string>
+    <string name="nov_21_nov_28_2023_steam_autumn_sale">Nov 21 - Nov 28, 2023: Steam Autumn Sale</string>
+    <string name="jun_29_jul_13_2023_steam_summer_sale">Jun 29 - Jul 13, 2023: Steam Summer Sale</string>
+    <string name="back">Back</string>
 </resources>

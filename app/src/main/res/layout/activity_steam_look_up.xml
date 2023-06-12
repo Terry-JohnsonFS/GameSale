@@ -11,14 +11,15 @@
         android:id="@+id/textView112"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="game to search"
+        android:autofillHints=""
+        android:hint="@string/game_to_search"
         android:textAlignment="center"
+        android:textColorHint="#283593"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
-        android:autofillHints="" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
@@ -29,7 +30,8 @@
         android:text="@string/steam_look_up_page"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/button5"
@@ -59,7 +61,8 @@
         app:layout_constraintBottom_toTopOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5" />
+        app:layout_constraintTop_toBottomOf="@+id/button5"
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/button2"

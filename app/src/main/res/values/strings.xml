@@ -17,4 +17,5 @@
     <string name="click_to_search_above_game">Click To Search Above Game</string>
     <string name="steam_look_up_page">Steam Look Up Page</string>
     <string name="average_acheivements_completed_in_game_show_here">Average Acheivements Completed in Game show here</string>
+    <string name="game_to_search">game to search</string>
 </resources>

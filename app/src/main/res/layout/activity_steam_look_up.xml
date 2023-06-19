@@ -81,7 +81,7 @@
         android:id="@+id/textView12"
         android:layout_width="318dp"
         android:layout_height="48dp"
-        android:hint="average acheivements"
+        android:hint="@string/average_acheivements"
         android:textAlignment="center"
         android:textColorHint="#283593"
         android:textSize="20sp"

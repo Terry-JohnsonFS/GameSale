@@ -22,10 +22,10 @@ class SteamLookUp : AppCompatActivity() {
         val SearchPrice = findViewById<Button>(R.id.button5)
         SearchPrice.setOnClickListener {
             when (userinput()) {
-                "fallout4" -> DisplayPrice.setText("19.99")
-                "fallout4" -> DisplayAchievments.setText("83%")
-                "skyrim" -> DisplayPrice.setText("39.99")
-                "skyrim" -> DisplayAchievments.setText("50%")
+                "fallout4" -> {DisplayPrice.setText("19.99")
+                DisplayAchievments.setText("83%")}
+                "skyrim" -> {DisplayPrice.setText("39.99")
+                DisplayAchievments.setText("51%")}
             }
         }
 

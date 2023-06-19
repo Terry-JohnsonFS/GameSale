@@ -80,7 +80,7 @@
     <EditText
         android:id="@+id/textView12"
         android:layout_width="318dp"
-        android:layout_height="46dp"
+        android:layout_height="48dp"
         android:hint="average acheivements"
         android:textAlignment="center"
         android:textColorHint="#283593"

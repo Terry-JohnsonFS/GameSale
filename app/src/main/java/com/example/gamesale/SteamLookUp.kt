@@ -17,14 +17,19 @@ class SteamLookUp : AppCompatActivity() {
             val intent = Intent(this, SteamSalesTimes::class.java)
             startActivity(intent)
         }
+        val DisplayAchievments = findViewById<TextView>(R.id.textView12)
         val DisplayPrice = findViewById<TextView>(R.id.textView1)
         val SearchPrice = findViewById<Button>(R.id.button5)
         SearchPrice.setOnClickListener {
             when (userinput()) {
                 "fallout4" -> DisplayPrice.setText("19.99")
+                "fallout4" -> DisplayAchievments.setText("83%")
                 "skyrim" -> DisplayPrice.setText("39.99")
+                "skyrim" -> DisplayAchievments.setText("50%")
             }
         }
+
+
 
     }
 
